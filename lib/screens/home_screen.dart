@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:todo_lib/todo_lib.dart';
 
+import '../models.dart';
+
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -16,9 +18,19 @@ class _HomeScreenState extends State<HomeScreen> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
-          key: ArchSampleKeys.addTodoFab,
+          key: ArchSampleKeys.tabs,
 
-          items: appta
+          items:AppTab.values.map((tab) {
+            return BottomNavigationBarItem(
+                icon: Icon(
+                  tab == AppTab.todos ? Icons.list : Icons.show_chart,
+                  key: tab == AppTab.stats ? ArchSampleKeys.statsTab : ArchSampleKeys.todoTab,
+                ),
+                title: Text(
+                  tab == AppTab.stats ? "1" : "2",
+                ),
+            );
+          }).toList(),
       ),
     );
   }
