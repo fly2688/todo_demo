@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todo_lib/todo_lib.dart';
+import '../todo_lib/todo_lib.dart';
 
 import '../models.dart';
 
@@ -9,17 +9,29 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  VisibilityFilter activeFilter = VisibilityFilter.all;
+  AppTab activeTab = AppTab.todos;
+
+  _updateTab(AppTab tab) {
+    setState(() {
+      activeTab = tab;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("1111"),
+        title: Text(ArchSampleLocalizations.of(context).title),
         actions: <Widget>[
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
           key: ArchSampleKeys.tabs,
-
+          currentIndex: AppTab.values.indexOf(activeTab),
+          onTap: (index) {
+            _updateTab(AppTab.values[index]);
+          },
           items:AppTab.values.map((tab) {
             return BottomNavigationBarItem(
                 icon: Icon(
@@ -27,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   key: tab == AppTab.stats ? ArchSampleKeys.statsTab : ArchSampleKeys.todoTab,
                 ),
                 title: Text(
-                  tab == AppTab.stats ? "1" : "2",
+                  tab == AppTab.stats ? "1" : ArchSampleLocalizations.of(context).todos,
                 ),
             );
           }).toList(),

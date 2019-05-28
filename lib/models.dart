@@ -1,5 +1,5 @@
-import 'package:todo_lib/todo_lib.dart';
-import 'package:todo_core/todo_core.dart';
+import 'todo_core/todo_core.dart';
+import 'todo_lib/todo_lib.dart';
 
 class AppState {
   bool isLoading;
