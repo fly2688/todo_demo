@@ -1,0 +1,130 @@
+{
+  "@@last_modified": "2019-06-01T19:46:48.009560",
+  "@@locale":"zh",
+  "title": "李 App",
+  "@title": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "todos": "待办",
+  "@todos": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "stats": "总和",
+  "@stats": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "editTodo": "编辑待办",
+  "@editTodo": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "todoDetails": "待办详情",
+  "@todoDetails": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "todoDeleted": "删除 \"{task}\"",
+  "@todoDeleted": {
+    "type": "text",
+    "placeholders": {
+      "task": {}
+    }
+  },
+  "undo": "取消",
+  "@undo": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newTodoHint": "你需要做什么?",
+  "@newTodoHint": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "emptyTodoError": "请写一些内容",
+  "@emptyTodoError": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "notesHint": "额外备注...",
+  "@notesHint": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "saveChanges": "保存变更",
+  "@saveChanges": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "deleteTodo": "删除待办",
+  "@deleteTodo": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "filterTodos": "过滤待办",
+  "@filterTodos": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "showAll": "展示所有",
+  "@showAll": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "showActive": "展示未完成",
+  "@showActive": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "showCompleted": "展示完成",
+  "@showCompleted": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "markAllIncomplete": "全部不完成",
+  "@markAllIncomplete": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "markAllComplete": "全部完成",
+  "@markAllComplete": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "clearCompleted": "清楚完成",
+  "@clearCompleted": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "completedTodos": "已完成",
+  "@completedTodos": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "activeTodos": "未完成",
+  "@activeTodos": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  }
+}

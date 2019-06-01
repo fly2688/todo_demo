@@ -1,0 +1,129 @@
+{
+  "@@last_modified": "2019-06-01T19:46:48.009560",
+  "title": "Lee App",
+  "@title": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "todos": "Todos",
+  "@todos": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "stats": "Stats",
+  "@stats": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "editTodo": "Edit Todo",
+  "@editTodo": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "todoDetails": "Todo Details",
+  "@todoDetails": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "todoDeleted": "Deleted \"{task}\"",
+  "@todoDeleted": {
+    "type": "text",
+    "placeholders": {
+      "task": {}
+    }
+  },
+  "undo": "Undo",
+  "@undo": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newTodoHint": "What needs to be done?",
+  "@newTodoHint": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "emptyTodoError": "Please enter some text",
+  "@emptyTodoError": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "notesHint": "Additional Notes...",
+  "@notesHint": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "saveChanges": "Save changes",
+  "@saveChanges": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "deleteTodo": "Delete Todo",
+  "@deleteTodo": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "filterTodos": "Filter Todos",
+  "@filterTodos": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "showAll": "Show All",
+  "@showAll": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "showActive": "Show Active",
+  "@showActive": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "showCompleted": "Show Completed",
+  "@showCompleted": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "markAllIncomplete": "Mark all incomplete",
+  "@markAllIncomplete": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "markAllComplete": "Mark all complete",
+  "@markAllComplete": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "clearCompleted": "Clear completed",
+  "@clearCompleted": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "completedTodos": "Completed Todos",
+  "@completedTodos": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  },
+  "activeTodos": "Active Todos",
+  "@activeTodos": {
+    "description": "",
+    "type": "text",
+    "placeholders": {}
+  }
+}
