@@ -45,10 +45,12 @@ class AppState {
       isLoading == other.isLoading;
   }
 
+  /*清空完成的*/
   void clearCompleted() {
     todos.removeWhere((todo) => todo.complete);
   }
 
+  /*取反*/
   void toggleAll() {
     final allCompleted = this.allComplete;
     todos.forEach((todo) => todo.complete = !allCompleted);
